@@ -52,7 +52,7 @@ This project demonstrates the deployment and configuration of **Active Directory
 - Authentication: Password (labuser)
 - Networking: RDP (3389) enabled
 
-![Server Manager Dashboard](assets/Screenshot%202025-12-06%20175438.png)
+![Server Manager Dashboard](assets/server%20manager%20dashboard.png)
 
 ---
 
@@ -65,7 +65,7 @@ This project demonstrates the deployment and configuration of **Active Directory
 4. Add required features
 5. Complete installation
 
-![Installing AD DS](assets/Screenshot%202025-12-06%20175859.png)
+![Add Roles and Features Wizard](assets/add%20roles%20and%20features%20wizard.png)
 
 **4. Promote to Domain Controller**
 1. Click post-deployment notification
@@ -76,9 +76,11 @@ This project demonstrates the deployment and configuration of **Active Directory
 6. Configure DNS automatically
 7. Complete promotion (server restarts)
 
-![Domain Controller Promotion](assets/Screenshot%202025-12-06%20175944.png)
+![Promote Server to Domain Controller](assets/promote%20this%20server%20to%20a%20domain%20controller%20link.png)
 
-![DC Configuration](assets/Screenshot%202025-12-06%20180323.png)
+![Add a New Forest](assets/add%20a%20new%20forest.png)
+
+![Domain Controller Options](assets/forest%20functional%20and%20domain%20levels.png)
 
 ---
 
@@ -95,7 +97,7 @@ Created the following OUs to organize users and resources:
 - **_COMPUTERS** - For computer objects
 - **_SYSADMINS** - For system administrator accounts
 
-![OU Structure](assets/Screenshot%202025-12-06%20182812.png)
+![OU Structure](assets/organizational%20units%20in%20homelab.png)
 
 ---
 
@@ -109,13 +111,13 @@ Created domain admin account:
 - **Location**: _SYSADMINS OU
 - **Group Membership**: Domain Admins
 
-![Jane Admin User](assets/Screenshot%202025-12-06%20182839.png)
+![Jane Admin Creation](assets/jane%20admin%20creation.png)
 
 **8. Verify Admin Privileges**
 
 Confirmed Jane Admin is member of Domain Admins group:
 
-![Domain Admin Membership](assets/Screenshot%202025-12-06%20183046.png)
+![Domain Admin Membership](assets/jane%20admin%20member%20of.png)
 
 **9. Create Standard Users**
 
@@ -128,7 +130,7 @@ Created multiple employee accounts:
 
 All users placed in **_EMPLOYEES** OU with appropriate permissions.
 
-![Employee Users](assets/Screenshot%202025-12-06%20183015.png)
+![Employee Users](assets/complete%20list%20of%20employee%20OU.png)
 
 ---
 
